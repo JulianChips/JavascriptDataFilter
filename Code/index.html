@@ -27,7 +27,7 @@
     </div>
     <div class="container">
       <div class="row margin-top-50">
-        <div class="col-md-2">
+        <div class="col-md-3">
           <aside class="filters">
             <div class="panel panel-default">
               <div class="panel-heading">Filter Search</div>
@@ -39,6 +39,22 @@
                         <label for="date">Enter a Date</label>
                         <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
                       </li>
+                      <li class="filter list-group-item">
+                        <label for="city">Enter a City</label>
+                        <input class="form-control" id="city" type="text" placeholder="Fresno">
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="city">Enter a State's Abbreviation</label>
+                        <input class="form-control" id="state" type="text" placeholder="CA">
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="city">Enter a Country's Abbreviation</label>
+                        <input class="form-control" id="country" type="text" placeholder="US">
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="city">Enter a UFO Shape</label>
+                        <input class="form-control" id="shape" type="text" placeholder="Triangle, Circle, Light, etc.">
+                      </li>                      
                     </ul>
                   </div>
                   <button id="filter-btn" type="submit" class="btn btn-default">Filter Table</button>
@@ -47,7 +63,7 @@
             </div>
           </aside>
         </div>
-        <div class="col-md-10">
+        <div class="col-md-9">
           <div id="table-area" class="">
             <table id="ufo-table" class="table table-striped">
               <thead>
